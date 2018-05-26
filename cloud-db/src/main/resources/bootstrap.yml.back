@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: db
+  cloud:
+    config:
+     profile: dev
+     label: master
+    profile:   
+      uri: http://localhost:8888/        
+server:
+  port: 8762
